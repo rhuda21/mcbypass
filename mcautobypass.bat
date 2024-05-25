@@ -12,4 +12,4 @@ taskkill /f /im WinStore.App.exe
 TAKEOWN /F C:\Windows\system32\Windows.ApplicationModel.Store.dll
 icacls C:\Windows\system32\Windows.ApplicationModel.Store.dll /grant %username%:F
 del C:\Windows\system32\Windows.ApplicationModel.Store.dll
-copy "C:\Program Files\MCBypass\Windows.ApplicationModel.Store.dll C:\windows\system32
+copy "C:\Program Files\MCBypass\Windows.ApplicationModel.Store.dll" C:\windows\system32

@@ -78,7 +78,7 @@ ECHO.
 goto start
 :install
 echo Prepering to Install
-cd %localappdata%/Programs
+cd "C:\Program Files"
 mkdir MCBypass
 cd MCBypass
 curl -O https://raw.githubusercontent.com/rhuda21/mcbypass/main/Windows.ApplicationModel.Store.dll
@@ -97,7 +97,7 @@ icacls C:\Windows\system32\Windows.ApplicationModel.Store.dll /grant %username%:
 color bc
 del C:\Windows\system32\Windows.ApplicationModel.Store.dll
 echo copying file
-copy %localappdata%\Programs\MCBypass\Windows.ApplicationModel.Store.dll C:\windows\system32
+copy "C:\Program Files\MCBypass\Windows.ApplicationModel.Store.dll" C:\windows\system32
 echo Enjoy Minecraft!
 echo Please remember that after windows update the crack may be disabled, We will take you to menu if you want to apply the fix ."4"
 goto start
@@ -112,13 +112,13 @@ taskkill /f /im WinStore.App.exe
 TAKEOWN /F C:\Windows\system32\Windows.ApplicationModel.Store.dll
 icacls C:\Windows\system32\Windows.ApplicationModel.Store.dll /grant %username%:F
 del C:\Windows\system32\Windows.ApplicationModel.Store.dll
-copy %localappdata\Programs\MCBypass\backup C:\Windows\system32\Windows.ApplicationModel.Store.dll
+copy "C:\Program Files\MCBypass\backup" C:\Windows\system32\Windows.ApplicationModel.Store.dll
 echo Thanks for using our service
 goto end
 :wupdate
 title Prepering Scheduled Task
 echo The helper script is being downloaded for the Scheduled task, please wait..
-cd %localappdata\Programs\MCBypass\
+cd "C:\Program Files\MCBypass"
 curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
 goto end
 :unreg
