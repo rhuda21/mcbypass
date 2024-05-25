@@ -57,7 +57,7 @@
  ::::::::::::::::::::::::::::
  ::START
  ::::::::::::::::::::::::::::
-@ECHO on
+@ECHO off
 title Minecraft Bedrock Crack Utiilty
 cls
 :start
@@ -120,6 +120,7 @@ title Prepering Scheduled Task
 echo The helper script is being downloaded for the Scheduled task, please wait..
 cd "C:\Program Files\MCBypass"
 curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
+start taskadd.bat
 goto end
 :unreg
 ECHO TEST
