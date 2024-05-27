@@ -57,7 +57,7 @@
  ::::::::::::::::::::::::::::
  ::START
  ::::::::::::::::::::::::::::
-@ECHO off
+@ECHO on
 title Minecraft Bedrock Crack Utiilty
 cls
 :start
@@ -92,6 +92,9 @@ taskkill /F /IM  Gamebar.exe
 taskkill /F /IM  RuntimeBroker.exe
 taskkill /f /im Minecraft.Windows.exe
 taskkill /f /im WinStore.App.exe
+taskkill /f /im PhoneExperienceHost.exe
+taskkill /f /im NanaZip.Modern.exe
+taskkill /f /im StoreExperienceHost.exe
 TAKEOWN /F C:\Windows\system32\Windows.ApplicationModel.Store.dll
 icacls C:\Windows\system32\Windows.ApplicationModel.Store.dll /grant %username%:F
 color bc
@@ -99,7 +102,7 @@ del C:\Windows\system32\Windows.ApplicationModel.Store.dll
 echo copying file
 copy "C:\Program Files\MCBypass\Windows.ApplicationModel.Store.dll" C:\windows\system32
 echo Enjoy Minecraft!
-echo Please remember that after windows update the crack may be disabled, We will take you to menu if you want to apply the fix ."4"
+echo Please remember that after windows update the crack may be disabled, We will take you to menu if you want to apply the fix . Use Option No."4"
 goto start
 goto end
 :uninstall
@@ -109,6 +112,9 @@ taskkill /F /IM  Gamebar.exe
 taskkill /F /IM  RuntimeBroker.exe
 taskkill /f /im Minecraft.Windows.exe
 taskkill /f /im WinStore.App.exe
+taskkill /f /im PhoneExperienceHost.exe
+taskkill /f /im NanaZip.Modern.exe
+taskkill /f /im StoreExperienceHost.exe
 TAKEOWN /F C:\Windows\system32\Windows.ApplicationModel.Store.dll
 icacls C:\Windows\system32\Windows.ApplicationModel.Store.dll /grant %username%:F
 del C:\Windows\system32\Windows.ApplicationModel.Store.dll
@@ -123,7 +129,7 @@ curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
 start taskadd.bat
 goto end
 :unreg
-ECHO TEST
+schtasks /Delete /TN "mcbypass"
 goto end
 :end
 PAUSE
