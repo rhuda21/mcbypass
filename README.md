@@ -2,8 +2,6 @@ Minecraft Bedrock Crack
 
 Features
 
-Automatically apply after Windows Update
-
 Uninstall and Restore to Original
 
 Delete automated task
