@@ -3,6 +3,7 @@ Minecraft Bedrock Crack
 Features
 
 Uninstall and Restore to Original Minecraft
+
 Delete automated task
 
 Credits
