@@ -129,7 +129,7 @@ curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
 start taskadd.bat
 goto end
 :unreg
-schtasks /Delete /TN "mcbypass"
+del "C:\Windows\System32\update\run" y
 goto end
 :end
 PAUSE
