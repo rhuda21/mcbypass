@@ -11,4 +11,4 @@ https://stackoverflow.com/a/12264592/101634 = Auto Elevate Script
 
 Administrator rights are required!
 
-**[PLEASE CHECK THE KILLIST HERE]**(https://raw.githubusercontent.com/rhuda21/mcbypass/main/endlist.md)
+[PLEASE CHECK THE KILLIST HERE](https://raw.githubusercontent.com/rhuda21/mcbypass/main/endlist.md)
