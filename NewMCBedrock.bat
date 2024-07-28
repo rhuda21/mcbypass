@@ -57,7 +57,7 @@
  ::::::::::::::::::::::::::::
  ::START
  ::::::::::::::::::::::::::::
-@ECHO on
+@ECHO off
 title Minecraft Bedrock Crack Utiilty
 cls
 :start
