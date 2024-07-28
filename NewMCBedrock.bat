@@ -80,11 +80,11 @@ goto start
 echo Prepering to Install
 cd "C:\Program Files"
 mkdir MCBypass
-cd MCBypass
+cd /d MCBypass
 curl -O https://raw.githubusercontent.com/rhuda21/mcbypass/main/Windows.ApplicationModel.Store.dll
 echo Backing Up original DLL
 mkdir backup
-cd backup
+cd /d backup
 copy C:\Windows\system32\Windows.ApplicationModel.Store.dll
 echo The Installation is about to begin. Please close all Microsoft Store Apps and Xbox.
 title Installing..
@@ -124,7 +124,7 @@ goto end
 :wupdate
 title Prepering Scheduled Task
 echo The helper script is being downloaded for the Scheduled task, please wait..
-cd "C:\Program Files\MCBypass"
+cd /d "C:\Program Files\MCBypass"
 curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
 start taskadd.bat
 goto end
