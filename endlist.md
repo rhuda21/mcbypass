@@ -1,5 +1,5 @@
-- THIS IS A LIST OF PROGRAMS THAT WILL BE ENDED WHEN THE SCRIPT IS RAN 
-- THESE PROCESSES CONFLICT WITH THE OPERATION OF MODIFYING THE DLL FILE
+- THIS IS A LIST OF PROGRAMS THAT WILL BE KILLED WHEN THE SCRIPT IS RUNNING
+- THESE PROCESSES CONFLICT WITH THE OPERATION OF MODIFYING THE REQUIRED FILE
 
 **PLEASE CHECK TO SEE IF YOUR PROCESS IS ON THIS LIST**
 
@@ -7,9 +7,9 @@
 
 
 - Gamebar.exe - Xbox Game Bar
-- RuntimeBroker.exe - Application used my many UWP apps
+- RuntimeBroker.exe - Application used By many UWP apps
 - Minecraft.Windows.exe - Minecraft for Windows (Bedrock)
-- WinStore.App.exe
+- WinStore.App.exe - Microsoft Store
 - PhoneExperienceHost.exe - Microsoft Phone Link
 - NanaZip.Modern.exe - Nanazip
 - StoreExperienceHost.exe - Store Experience Host
