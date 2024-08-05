@@ -125,7 +125,7 @@ goto end
 title Prepering Scheduled Task
 echo The helper script is being downloaded for the Scheduled task, please wait..
 cd /d "C:\Program Files\MCBypass"
-curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/taskadd.bat
+curl -O  https://raw.githubusercontent.com/rhuda21/mcbypass/main/V2/taskadd.bat
 start taskadd.bat
 goto end
 :unreg
