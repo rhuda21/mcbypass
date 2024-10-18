@@ -14,3 +14,4 @@
 - NanaZip.Modern.exe - Nanazip
 - StoreExperienceHost.exe - Store Experience Host
 - WhatsApp.exe - Whatsapp for Windows 10/11
+- XboxPcAppFT.exe Xbox App
