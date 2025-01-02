@@ -1,1 +1,9 @@
-
+Gamebar.exe
+RuntimeBroker.exe
+Minecraft.Windows.exe
+WinStore.App.exe
+PhoneExperienceHost.exe
+NanaZip.Modern.exe
+StoreExperienceHost.exe
+WhatsApp.exe
+XboxPcAppFT.exe
